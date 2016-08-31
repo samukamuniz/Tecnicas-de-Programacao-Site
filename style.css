@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+body {
+	font: 16px Arial;
+}
+
+.row {
+	width: 950px;
+	margin: 0 auto;
+}
+
+.row::after {
+	content: "";
+	display: block;
+	clear: both; 
+}
+
+header {
+	background-color: #4C5B5C;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	
+}
+
+header ul {
+	padding: 0;
+	margin: 0 auto;
+	list-style: none;
+	width: 600px;
+	background-color: green;
+}
+
+header ul li {
+	padding-bottom: 10px;
+	position: relative;
+	float: left;
+}
+
+header ul li a {
+	padding: 10px 30px;
+	text-decoration: none;
+	color: white;
+	line-height: 50px;
+	font-size: 14px;
+}
+
+header ul li a:hover {
+	border-bottom: 2px solid white;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.title {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: normal;
+	width: 500px;
+	margin: 50px auto;
+	font-size: 2.5em;
+}
+
+.title::after {
+	content: "";
+	display: block;
+	width: 40%;
+	height: 2px;
+	background-color: red;
+	margin: 10px auto;
+}
+
+.section {
+	padding: 30px 0;
+	border-bottom: 1px solid #ccc;
+}
+#quemsomos h3 {
+	font-weight: normal;
+	margin: 20px 0;
+}
+
+.coluna {
+	width: 31%;
+	margin: 1%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.coluna h4{
+	padding: 10px 0;
+	font-weight: normal;
+}
+
+.coluna:first-child{
+	margin-left: 0px;
+}
+
+.coluna:last-child{
+	margin-right: 0px;
+}
