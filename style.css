@@ -18,6 +18,32 @@ body {
 	clear: both; 
 }
 
+.btn {
+	display: inline-block;
+	padding: 10px 25px;
+	font-size: 15px;
+	color: #FFF;
+	transition: background 300ms linear;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.btn-principal {
+	background: #337ab7;
+}
+
+.btn-secundario {	
+}
+
+.btn-principal:hover {
+	background: #286090;
+}
+
+.btn-block {
+	display: block;
+	width: 100%;
+}
+
 header {
 	background-color: #4C5B5C;
 	position: fixed;
@@ -92,9 +118,14 @@ img {
 	box-sizing: border-box;
 }
 
-.coluna h4{
+.coluna h3 {
 	padding: 10px 0;
 	font-weight: normal;
+}
+
+.coluna p {
+	padding: 10px 0;
+	text-align: justify;
 }
 
 .coluna:first-child{
@@ -103,4 +134,41 @@ img {
 
 .coluna:last-child{
 	margin-right: 0px;
+}
+
+#exercicios .coluna {
+	width: 47%;
+	margin-bottom: 30px;
+}
+
+.group-form{
+	padding: 10px 0;
+}
+
+.group-form label {
+	font-weight: bold;
+	display: block;
+	padding: 5px 0;
+}
+
+.group-form input, 
+.group-form textarea {
+	width: 100%;
+	padding: 7px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #ccc;
+}
+
+#localizacao iframe {
+	width: 100%;
+	margin-top: 20px;
+
+} 
+
+footer {
+	background-color: #4C5B5C;
+	width: 100%;
+	padding: 60px 0px;
+	color: white;
 }
